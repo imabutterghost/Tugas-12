@@ -1,6 +1,6 @@
 <?php
 require('config.php'); // Menghubungkan ke database
-require('fpdf/fpdf.php'); // Path ke pustaka FPDF
+require('fpdf.php'); // Path ke pustaka FPDF
 
 // Ambil data dari database
 $query = "SELECT * FROM guru_karyawan";
