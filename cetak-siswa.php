@@ -1,9 +1,9 @@
 <?php
 require('config.php'); // Koneksi database
-require('fpdf/fpdf.php'); // Pustaka FPDF
+require('fpdf.php'); // Pustaka FPDF
 
 // Ambil data siswa dari database
-$query = "SELECT * FROM pendaftaran"; // Ganti dengan nama tabel siswa Anda
+$query = "SELECT * FROM calon_siswa"; // Ganti dengan nama tabel siswa Anda
 $result = mysqli_query($db, $query);
 
 // Buat array data siswa
